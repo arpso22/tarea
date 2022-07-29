@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: rgb(56, 39, 209);
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+   /* position: relative;*/
+   display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #000000;
+    font-family: 'open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color:rgb(255, 255, 255);
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #3836d6;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.submenu li a{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'open sans';
+    text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.tit{
+    color: #fff;
+    text-align: center;
+}
+
+.submend{
+    position: absolute;
+    background: #08a0b4;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.submend li a{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'open sans';
+    text-decoration: none;
+
+}
+
+.menu li:hover .submend{
+    visibility: visible;
+    opacity: 1;
+}
+
+.submend1{
+    position: absolute;
+    background: #0c57e4;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0.5px;
+    
+}
+
+.submend1 li a{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'open sans';
+    text-decoration: none;
+
+}
+
+.menu li:hover .submend1{
+    visibility: visible;
+    opacity: 1;
+}
+
+.submend2{
+    position: absolute;
+    background: #06572b;
+    visibility: hidden;
+    opacity: 0;
+    text-align: start;
+
+}
+
+.submend2 li a{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'open sans';
+    text-decoration: none;
+
+}
+
+.menu li:hover .submend2{
+    visibility: visible;
+    opacity: 1;
+}
+
+img{
+    width: 900px;
+    padding: 100px;
+}
+
